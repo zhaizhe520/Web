@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			html{
+				background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+			}
+			
+			h1{
+				background-image: linear-gradient(120deg, #8ec5fc 0%, #e0c3fc 100%);
+				height: 5rem;
+				width: 81.25rem;
+				display: flex;
+				margin-right: 40rem;
+				text-align: center;
+				line-height: 5rem;
+				border: solid plum;
+				border-radius: 20px;
+				}
+				#dao1,#dao2,#dao3,#dao4{
+					margin-left: 200px;
+				}
+				a{
+					text-decoration: none;
+				}
+				a:hover{
+					color: pink;
+					opacity: 0.6;
+					transition: 1s;
+				}
+
+				#hua1{
+					width: 25rem;
+					height: 30rem;
+					background-image: url("HBuilderX/素材/椎名真白.jpg");
+					background-size: cover;
+					border-radius: 20px;
+					border: solid pink;
+					box-shadow: 5px 5px 5px white;
+				}
+				#zi1{
+					color: #fad8be;
+					position: absolute;
+					opacity: 0;
+					top: 0rem;
+					left: 0.625rem;
+					font-family: 
+				}
+				.qu1:hover #zi1{
+								   opacity: 1;
+								   transition: 9s;
+				}
+				.qu1:hover video{
+								   opacity: 1;
+				}
+				.qu1:hover .ban1 #hua1{
+								   opacity: 0;
+								   transform: translate(200px,0px);
+								   transition: 3s;
+				}
+				
+				#hua2{
+					width: 25rem;
+					height: 30rem;
+					background-image: url("HBuilderX/素材/雛月加代.jpg");
+					background-size: cover;
+					border-radius: 20px;
+					border: solid pink;
+					box-shadow: 5px 5px 5px black;
+				}
+				#zi2{
+					color: black;
+					position: absolute;
+					opacity: 0;
+					top: 0rem;
+					left: 0.625rem;
+					font-family: 
+				}
+				.qu2:hover #zi2{
+								   opacity: 0.8;
+								   transition: 9s;
+				}
+				.qu2:hover video{
+								   opacity: 1;
+				}
+				.qu2:hover .ban2 #hua2{
+								   opacity: 0;
+								   transform: translate(200px,0px);
+								   transition: 3s;
+				}
+				
+				#hua3{
+					width: 25rem;
+					height: 30rem;
+					background-image: url("HBuilderX/素材/艾莉丝.jpg");
+					background-size: cover;
+					border-radius: 20px;
+					border: solid pink;
+					box-shadow: 5px 5px 5px red;
+				}
+				#zi3{
+					color: #fe6673;
+					position: absolute;
+					opacity: 0;
+					top: 0rem;
+					left: 0.625rem;
+					font-family: 
+				}
+				.qu3:hover #zi3{
+								   opacity: 0.8;
+								   transition: 9s;
+				}
+				.qu3:hover video{
+								   opacity: 1;
+				}
+				.qu3:hover .ban3 #hua3{
+								   opacity: 0;
+								   transform: translate(200px,0px);
+								   transition: 3s;
+				}
+				
+				#hua4{
+					width: 25rem;
+					height: 30rem;
+					background-image: url("HBuilderX/素材/爱丽丝.jpg");
+					background-size: cover;
+					border-radius: 20px;
+					border: solid pink;
+					box-shadow: 5px 5px 5px greenyellow;
+				}
+				#zi4{
+					color: #bdf3d4;
+					position: absolute;
+					opacity: 0;
+					top: 0rem;
+					left: 0.625rem;
+					font-family: 
+				}
+				.qu4:hover #zi4{
+								   opacity: 0.8;
+								   transition: 9s;
+				}
+				.qu4:hover video{
+								   opacity: 1;
+				}
+				.qu4:hover .ban4 #hua4{
+								   opacity: 0;
+								   transform: translate(200px,0px);
+								   transition: 3s;
+				}
+				
+				#hua5{
+					width: 25rem;
+					height: 30rem;
+					background-image: url("HBuilderX/素材/千反田.jpg");
+					background-size: cover;
+					border-radius: 20px;
+					border: solid pink;
+					box-shadow: 5px 5px 5px whitesmoke;
+				}
+				#zi5{
+					color: #d7a4b6;
+					position: absolute;
+					opacity: 0;
+					top: 0rem;
+					left: 0.625rem;
+					font-family: 
+				}
+				.qu5:hover #zi5{
+								   opacity: 1;
+								   transition: 9s;
+				}
+				.qu5:hover video{
+								   opacity: 1;
+				}
+				.qu5:hover .ban5 #hua5{
+								   opacity: 0;
+								   transform: translate(200px,0px);
+								   transition: 3s;
+				}
+				
+				#hua6{
+					width: 25rem;
+					height: 30rem;
+					background-image: url("HBuilderX/素材/温水佳树.jpg");
+					background-size: cover;
+					border-radius: 20px;
+					border: solid pink;
+					box-shadow: 5px 5px 5px gray;
+				}
+				#zi6{
+					color: #cbf5fb;
+					position: absolute;
+					opacity: 0;
+					top: 0rem;
+					left: 0.625rem;
+					font-family: 
+				}
+				.qu6:hover #zi6{
+								   opacity: 0.8;
+								   transition: 9s;
+				}
+				.qu6:hover video{
+								   opacity: 1;
+				}
+				.qu6:hover .ban6 #hua6{
+								   opacity: 0;
+								   transform: translate(200px,0px);
+								   transition: 3s;
+				}
+				
+				.ban1,.ban2,.ban3,.ban4,.ban5,.ban6{
+					width: 25rem;
+					height: 30rem;
+					/*background-color: black;
+					display: inline-block;
+					border: solid white;
+					border-radius:20px;
+					/*box-shadow: 2px 2px 2px 2px snow;*/
+				}
+				/*.ban2{
+					width: 400px;
+					height: 300px;
+					background-color:black;
+					display: inline-block;
+					text-shadow: 0px 0px 0.4 palegreen;
+				}
+				.ban3{
+					width: 400px;
+					height: 300px;
+					background-color: antiquewhite;
+					display: inline-block;
+					margin: 50px;
+					text-shadow: 0px 0px 0.4 palegreen;
+				}
+				.ban4{
+					width: 400px;
+					height: 300px;
+					background-color: antiquewhite;
+					display: inline-block;
+					margin: 50px;
+					text-shadow: 0px 0px 0.4 palegreen;
+				}
+				.ban5{
+					width: 400px;
+					height: 300px;
+					background-color: antiquewhite;
+					display: inline-block;
+					margin: 50px;
+					text-shadow: 0px 0px 0.4 palegreen;
+				}
+				.ban6{
+					width: 400px;
+					height: 300px;
+					background-color: antiquewhite;
+					display: inline-block;
+					margin: 50px;
+					border-radius:20px;
+				}*/
+				
+				video{
+					position: absolute;
+					width: 25rem;
+					height: 300px;
+					opacity: 0;
+					bottom: 0px;
+				}
+				
+				.main{
+					margin-top: 5rem;
+				}
+				.qu0{
+					display: flex;
+					margin-left: 1rem;
+				}
+				.qu00{
+					display: flex;
+					margin-left: 1rem;
+				}
+				.qu1,.qu2,.qu3,.qu4,.qu5,.qu6{
+					width: 25rem;
+					height: 30rem;
+					position: relative;
+					margin: 7rem;
+				}
+				
+				 
+				/*#top{
+					background-color: pink;
+					width: 400px;
+					height: 3.125rem;
+					width: 3.125rem;
+					text-align: center;
+					line-height: 3.125rem;
+					float: right;
+					border-radius: 20px;
+					border: solid orange;
+				}
+				*/
+			   #gal{
+				   height: 1920px;
+				   background-color:white;
+				   
+			   }
+		</style>
+	</head>
+	<body>
+		<h1>
+			<div id="dao1">
+				<a href="#top">首页</a>
+			</div>
+			<div id="dao2">
+				<a href="">中间</a>
+			</div>
+			<div id="dao3">
+				<a href="">尾部</a>
+			</div>
+			<div id="dao4">
+				<a href="">我的</a>
+			</div>
+		</h1>
+			<section class="main">
+				<section class="qu0">
+					<section class="qu1">
+						<b id="zi1">电视动画片《樱花庄的宠物女孩》改编自日本轻小说家鸭志田一原作的同名轻小说。2011年9月9日，原作官网首先宣布《樱花庄的宠物女孩》将广播剧CD（ドラマCD）化的决定 。此后在2012年4月10日，《樱花庄的宠物女孩》动画化的消息也正式被公布 ，动画声优沿用了此前公布的广播剧CD《椎名ましろのはじめてのお世话》的声优阵容。电视动画于2012年10月8日首播，全24集。</b>
+						<video src="HBuilderX/素材/樱花庄.mp4" poster="HBuilderX/素材/樱花庄封面.jpg" loop controls muted></video>
+						<section class="ban1">
+							<div id="hua1"></div>
+						</section>
+					</section>
+					
+					<section class="qu2">
+						<b id="zi2">《只有我不存在的城市》（日语：僕だけがいない街，簡稱：僕街）是日本漫畫家三部敬的日本漫畫作品，由KADOKAWA出版發行，於2012年6月4日發售的《Young Ace》2012年7月號開始連載，於2016年3月4日發售的《Young Ace》2016年4月號結束連載。於2014年獲得「這本漫畫真厲害！」第15位，2014年「漫畫大賞」第二位，2015年「漫畫大賞」第八位。改編同名電視動畫於2016年1月至3月在noitaminA播出，但因篇幅限制之故，部分情節與原作不同。</b>
+						<video src="HBuilderX/素材/只有我不存在的城市.mp4" poster="HBuilderX/素材/只有我不存在的城市封面.jpg" loop controls muted></video>
+						<section class="ban2">
+							<div id="hua2"></div>
+						</section>
+					</section>
+					
+					<section class="qu3">
+						<b id="zi3">《无职转生～到了异世界就拿出真本事～》（日语：無職転生 〜異世界行ったら本気だす〜，简称“无职转生”）是由日本轻小说家不讲理不求人所撰写，并由白鹰（日语：シロタカ）协助进行插画的日本轻小说。2014年1月开始由Media Factory旗下的MF books（Frontier Works企划，KADOKAWA发行）出版成书。作品以人际关系为主轴，讲述了主人翁克服前世的创伤并逐渐成长的故事。</b>
+						<video src="HBuilderX/素材/无职转生.mp4" poster="HBuilderX/素材/无职转生封面.jpg" style="height: 270px; width: 25rem;" loop controls muted></video>
+						<section class="ban3">
+							<div id="hua3"></div>
+						</section>
+					</section>
+				</section>
+					
+				<section class="qu00">
+					<section class="qu4">
+						<b id="zi4">《刀剑神域》（日语：ソードアート・オンライン，英语：Sword Art Online，官方简称“SAO”，是川原砾撰写、abec绘制插画的日本轻小说作品，由电击文库于2009年4月出版发行。中文繁体版由台湾角川发行；中文简体版则是天闻角川发行。统计至2022年6月，全世界发行量正式突破3,000万本。Alicization篇（アリシゼーション，Alicization）第4部前半部分（人界篇）。小说版：第9－14卷；动画版：第1－24话（第3期第1部）</b>
+						<video src="HBuilderX/素材/刀剑神域.mp4" poster="HBuilderX/素材/刀剑神域封面.jpg" loop controls muted></video>
+						<section class="ban4">
+							<div id="hua4"></div>
+						</section>
+					</section>
+					
+					<section class="qu5">
+						<b id="zi5">《冰菓》系列（日语：〈古典部〉シリーズ，直译为《古籍研究社》系列)，是日本推理作家米泽穗信所著、以“古籍研究社”（日语：古典部）为中心的推理小说系列，于2001年11月开始由角川书店出版至今。繁体中文版由独步文化代理发行；简体中文版由天闻角川代理发行。2011年11月，京都动画宣布制作电视动画，取该系列首卷的标题《冰菓》为题，并于2012年4月至9月播出。</b>
+						<video src="HBuilderX/素材/冰菓.mp4" poster="HBuilderX/素材/冰菓封面.jpg" loop controls muted></video>
+						<section class="ban5">
+							<div id="hua5"></div>
+						</section>
+					</section>
+					
+					<section class="qu6">
+						<b id="zi6">《败犬女主太多了！》（日语：負けヒロインが多すぎる！，简称“マケイン”）是日本作家雨森焚火创作的轻小说系列，由“这个美术社大有问题！”作者伊右群担纲插图，2021年7月起经小学馆旗下GAGAGA文库发行。第15届小学馆轻小说大奖“GAGAGA奖”得奖作品。改编漫画由2022年4月29日起，在漫画应用程序“Manga One”开始连载，由いたち绘画。改编电视动画第1季于2024年7月至9月播放。</b>
+						<video src="HBuilderX/素材/败犬女主.mp4" poster="HBuilderX/素材/败犬女主封面.jpg" loop controls muted></video>
+						<section class="ban6">
+							<div id="hua6"></div>
+						</section>
+				</section>
+			</section>
+			
+		<!--<section id="top">
+			<a href="#">TOP</a>
+		</section>
+		-->
+		<section id="gal">
+			<section class="box1">
+				
+			</section>
+			<section class="box2">
+				
+			</section>
+			<section class="box3">
+				
+			</section>
+		</section>
+	</body>
+</html>
