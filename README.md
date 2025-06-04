@@ -4,12 +4,3 @@
 ***
 某天上课的时候老师演示了一个**滑块的效果**，我发现滑块划走之后下面可以藏东西，于是乎这个大二的课程设计的灵感和大致方向就出来了。
 ````
-#hua1{
-					width: 25rem;
-					height: 30rem;
-					background-image: url("");
-					background-size: cover;
-					border-radius: 20px;
-					border: solid pink;
-					box-shadow: 5px 5px 5px white;
-				}
