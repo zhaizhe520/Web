@@ -1,0 +1,436 @@
+                *{
+                	margin: 0;
+                	padding: 0;
+                }
+                html{
+                	background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+                }
+                
+                #header{
+                    width:100%;
+                    height: 70px;
+                    background-color:rgba(255,182,193, 0.8);
+                    position: fixed;
+                    border-radius: 3px;
+                    z-index: 500;
+                }
+                #header #tou{
+                    position: absolute;
+                    width: 700px;
+                    height: 0px;
+                    color: 	#00FFFF;
+                    font-size: 45px;
+                    letter-spacing: 25px;
+                    left: 20px;
+                    top: 0px;
+                    text-shadow: 0 0 30px rgba(0, 170, 255, 0.7);
+                    
+                }
+                ul{
+                    position: absolute;
+                    right:4px;
+                    top: 20px;
+                }
+                li{
+                    display: inline;
+                    width: 100%;
+                    height:300px;
+                    font-size: 18px;
+                    margin-right: 100px;
+                    
+                }    
+                li a{
+                    color: white;
+                    text-decoration: none;
+                }
+                li a:hover{
+                    text-decoration: none;
+                	color: 	#696969;
+                }
+                
+                h1{
+                	background-image: linear-gradient(120deg, #8ec5fc 0%, #e0c3fc 100%);
+					border: solid #FFD700;
+					border-top:#FFD700;
+					height: 4.125rem;
+					text-align: center;
+					line-height: 4.125rem;
+					font-size: 1.875rem;
+					color: 	#FFF8DC;
+					
+					}
+					#top{
+						background-color: pink;
+						width: 400px;
+						height: 3.125rem;
+						width: 3.125rem;
+						text-align: center;
+						line-height: 3.125rem;
+						float: right;
+						border-radius: 20px;
+						font-size: 1.25rem;
+						border: solid orange;
+					}
+				#hua1{
+					width: 25rem;
+					height: 30rem;
+					background-image: url("HBuilderX/素材/椎名真白.jpg");
+					background-size: cover;
+					border-radius: 20px;
+					border: solid snow;
+					box-shadow: 0 0 20px rgba(248, 248, 248, 0.8);
+					cursor: pointer;
+				}
+				#zi1{
+					color: #fad8be;
+					position: absolute;
+					opacity: 0;
+					top: 0rem;
+					left: 0.625rem;
+					text-shadow: 0 0 20px #fad8be;
+				}
+				.qu1:hover #zi1{
+								   opacity: 1;
+								   transition: 5s;
+				}
+				.qu1:hover video{
+								   opacity: 1;
+				}
+				.qu1:hover .ban1 #hua1{
+								   opacity: 0;
+								   transform: translate(200px,0px);
+								   transition: 3s;
+				}
+				
+				#hua2{
+					width: 25rem;
+					height: 30rem;
+					background-image: url("HBuilderX/素材/雛月加代.jpg");
+					background-size: cover;
+					border-radius: 20px;
+					border: solid black;
+					box-shadow: 0 0 20px rgba(18, 18, 18, 0.7);
+					cursor: pointer;
+				}
+				#zi2{
+					color: black;
+					position: absolute;
+					opacity: 0;
+					top: 0rem;
+					left: 0.625rem;
+					text-shadow: 0 0 20px #2b2520;
+				}
+				.qu2:hover #zi2{
+								   opacity: 1;
+								   transition: 9s;
+				}
+				.qu2:hover video{
+								   opacity: 1;
+				}
+				.qu2:hover .ban2 #hua2{
+								   opacity: 0;
+								   transform: rotateY(360deg);
+								   transition: 3s;
+				}
+				
+				#hua3{
+					width: 25rem;
+					height: 30rem;
+					background-image: url("HBuilderX/素材/艾莉丝.jpg");
+					background-size: cover;
+					border-radius: 20px;
+					border: solid 	#FF6347;
+					box-shadow: 0 0 15px rgba(255, 75, 51, 0.7);
+					cursor: pointer;
+				}
+				#zi3{
+					color: #fe6673;
+					position: absolute;
+					opacity: 0;
+					top: 0rem;
+					left: 0.625rem;
+					text-shadow: 0 0 20px #ff5500;
+				}
+				.qu3:hover #zi3{
+								   opacity: 1;
+								   transition: 9s;
+				}
+				.qu3:hover video{
+								   opacity: 1;
+				}
+				.qu3:hover .ban3 #hua3{
+								   opacity: 0;
+								   transform: translate(200px,0px);
+								   transition: 3s;
+				}
+				
+				#hua4{
+					width: 25rem;
+					height: 30rem;
+					background-image: url("HBuilderX/素材/爱丽丝.jpg");
+					background-size: cover;
+					border-radius: 20px;
+					border: solid #7FFF00;
+					box-shadow: 0 0 20px rgba(0, 255, 0, 0.7);
+					cursor: pointer;
+				}
+				#zi4{
+					color: #bdf3d4;
+					position: absolute;
+					opacity: 0;
+					top: 0rem;
+					left: 0.625rem;
+					text-shadow: 0 0 20px #55ff7f;
+				}
+				.qu4:hover #zi4{
+								   opacity: 1;
+								   transition: 9s;
+				}
+				.qu4:hover video{
+								   opacity: 1;
+				}
+				.qu4:hover .ban4 #hua4{
+								   opacity: 0;
+								   transform: translate(200px,0px);
+								   transition: 3s;
+				}
+				
+				#hua5{
+					width: 25rem;
+					height: 30rem;
+					background-image: url("HBuilderX/素材/千反田.jpg");
+					background-size: cover;
+					border-radius: 20px;
+					border: solid pink;
+					box-shadow: 0 0 20px rgba(255, 192, 203, 0.8);
+					cursor: pointer;
+				}
+				#zi5{
+					color: #d7a4b6;
+					position: absolute;
+					opacity: 0;
+					top: 0rem;
+					left: 0.625rem;
+					text-shadow: 0 0 20px #ff92ff;
+				}
+				.qu5:hover #zi5{
+								   opacity: 1;
+								   transition: 9s;
+				}
+				.qu5:hover video{
+								   opacity: 1;
+				}
+				.qu5:hover .ban5 #hua5{
+								   opacity: 0;
+								   transform: rotateY(360deg);
+								   transition: 3s;
+				}
+				
+				#hua6{
+					width: 25rem;
+					height: 30rem;
+					background-image: url("HBuilderX/素材/温水佳树.jpg");
+					background-size: cover;
+					border-radius: 20px;
+					border: solid #00FFFF;
+					box-shadow: 0 0 20px rgba(170, 255, 255, 0.8);
+					cursor: pointer;
+				}
+				#zi6{
+					color: #cbf5fb;
+					position: absolute;
+					opacity: 0;
+					top: 0rem;
+					left: 0.625rem;
+					text-shadow: 0 0 20px #55ffff;
+				}
+				.qu6:hover #zi6{
+								   opacity: 1;
+								   transition: 9s;
+				}
+				.qu6:hover video{
+								   opacity: 1;
+				}
+				.qu6:hover .ban6 #hua6{
+								   opacity: 0;
+								   transform: translate(200px,0px);
+								   transition: 3s;
+				}
+				
+				.ban1,.ban2,.ban3,.ban4,.ban5,.ban6{
+					width: 25rem;
+					height: 30rem;
+				}
+				
+				video{
+					position: absolute;
+					width: 25rem;
+					height: 300px;
+					opacity: 0;
+					bottom: 0px;
+				}
+				
+				.main{
+				margin: auto;
+				}
+				.qu0{
+					display: flex;
+					margin: auto;
+				}
+				.qu00{
+					display: flex;
+					margin: auto;
+				}
+				.qu1,.qu2,.qu3,.qu4,.qu5,.qu6{
+					width: 25rem;
+					height: 30rem;
+					position: relative;
+					margin: 7rem;
+				}
+				
+				 
+				
+			   #gal{
+				   background-color:#FFF8DC;
+				   height: 1999999px;
+				   width: 100%;
+				   
+			   }
+			   
+			   .sfq{
+				   display: flex;
+				   flex-wrap: nowrap;
+			   }
+			   .sfq01{
+			       display: flex;
+			       justify-content: center;
+			       align-items: center;
+			       background-color: rgb(243, 230, 241);
+			   }
+			   .gal1{
+			       width: 100%;
+			       height: 700px;
+			       display: flex;
+			   }
+			   .box{
+			       flex: 1;/*伸缩特性 */
+			       overflow: hidden;
+			       transition: 1s;
+			       margin: 0 20px;
+			       box-shadow: 10px 10px 20px rgba(0, 0, 0, .5);
+			       border-radius: 20px;
+			       border: 10px solid #ffffff;
+			       background-color: #ffffff;
+			   }
+			   .box>img{
+			       width:100%;
+			       height: 80%;
+			       object-fit: cover;
+			       transition: .5s;
+			   }
+			   .box>span{
+			   	font-size: 30px;
+			       text-align: center;
+			       height: 15%;
+			       display: flex;
+			       justify-content: center;
+			       align-items: center;
+			   }
+			   .box:hover{
+			       flex-basis: 60%;
+			   }
+			   .box:hover>img{
+			       width: 100%;
+			       height: 100%;
+			   }
+				.sfq2 {
+				     width: 960px;
+					 display: flex;
+					 margin-left: 18.75rem;
+				}
+				   
+				.sfq2 div {
+				     width: 15%;
+				     float: left;
+				     transition: 1s;
+					 border: 2px solid #FFD700;
+				}
+				   
+				.sfq2 img {
+				     width: 700px;
+				     height: 600px;
+				     cursor: pointer;
+				}
+				   
+				.sfq2 div:hover {
+				     width: 60%;
+				}
+				.novel1,.novel2{
+					background-color: white;
+					display: flex;
+				}
+				#angal,#yuemei,#qilai,#yue{
+					display: flex;
+					margin: 0.9375rem;
+				}
+				#angal table {
+					width: 500px;
+					height: 600px;
+					border-collapse: collapse; /* 合并边框 */
+					text-align: center; 
+					}
+								
+				#angal th,  #angal td {
+					border: 1px solid #FF7F50; 
+					padding: 12px 8px; 
+					}
+				#angal td:hover{
+					background-color: #FF7F50;
+					transition: 1s;
+				}
+				#yuemei table {
+					width: 500px;
+					height: 600px;
+					border-collapse: collapse; /* 合并边框 */
+					text-align: center; 
+					}
+								
+				#yuemei th, #yuemei td {
+					border: 1px solid #55ff00; 
+					  padding: 12px 8px; 
+					}	
+				#yuemei td:hover{
+					background-color: #55ff7f;
+					transition: 1s;
+				}	
+				
+				#qilai table {
+					width: 500px;
+					height: 600px;
+					border-collapse: collapse; /* 合并边框 */
+					text-align: center; 
+					}
+								
+				#qilai th,  #qilai td {
+					border: 1px solid #55ffff; 
+					padding: 12px 8px; 
+					}
+				#qilai td:hover{
+					background-color: #55ffff;
+					transition: 1s;
+				}
+				#yue table {
+					width: 500px;
+					height: 600px;
+					border-collapse: collapse; /* 合并边框 */
+					text-align: center; 
+					}
+								
+				#yue th,  #yue td {
+					border: 1px solid #ff0000; 
+					padding: 12px 8px; 
+					}
+				#yue td:hover{
+					background-color: #ff0000;
+					transition: 1s;
+				}
